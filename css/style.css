@@ -6,9 +6,15 @@
 .font-8rem {
     font-size: 8rem;
 }
+<<<<<<< HEAD
 
 .product-box-small {}
 
+=======
+.product-box-small{
+
+}
+>>>>>>> 6f37fe58b87ba84e3e636d89e9255fbe8e209e2b
 .section-title h3 {
     text-align: center;
     font-weight: 600;
@@ -310,6 +316,8 @@ footer {
     background: #303030;
     padding: 25px 0;
     color: #f1f1f1;
+    position:absolute;
+    width: 100%;
 }
 
 footer p,
