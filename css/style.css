@@ -178,6 +178,50 @@ nav[aria-label="breadcrumb"] {
     background: #fafafa;
 }
 
+#nav-dp {
+    height: 36px;
+    width: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+#nav-dp img {
+    width: 100%;
+}
+
+.dropdown-btn {
+    position: relative;
+    text-transform: capitalize;
+}
+
+
+.dropdown-btn:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    right: 0;
+    left: auto;
+}
+
+@media (min-width: 992px) {
+   
+    #navbarToggler {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .navbar .navbar-nav {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+
 .breadcrumb {
     background: #fafafa;
     padding-left: 0;
