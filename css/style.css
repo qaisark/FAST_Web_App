@@ -1,4 +1,7 @@
 /* HASSANS CSS */
+.min-height-82vh{
+    min-height: 82vh;
+}
 .font-15rem{
     font-size: 15rem;
 }
