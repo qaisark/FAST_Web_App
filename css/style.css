@@ -19,6 +19,7 @@ body {
     line-height: inherit;
     color: #000000;
     font-size: 1rem;
+    background: #eee;
 }
 
 @media all and (min-width:570px) {
@@ -47,7 +48,7 @@ body {
 }
 
 .text-primary {
-    color: #01d7e1  !important;
+    color: #01d7e1 !important;
 }
 
 /* NAVBAR */
@@ -83,7 +84,10 @@ body {
     color: #ffffff;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
     color: #01d7e1;
 }
 
@@ -96,3 +100,18 @@ body {
     border-radius: 0;
 }
 
+nav[aria-label="breadcrumb"] {
+    background: #fff;
+}
+
+.breadcrumb {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.breadcrumb a {
+    color: #03b2ba;
+}
