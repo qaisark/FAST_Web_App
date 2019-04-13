@@ -1,3 +1,24 @@
+/* HASSANS CSS */
+.popular-product-box{
+    text-align: center;
+}
+.homepage-boxes-shadow{
+    box-shadow: 0 1px 10px rgba(0,0,0,.12);
+}
+
+.category-icon-box{
+   
+}
+.category-icon-box> i:first-child{
+    font-size: 120px;
+    text-align: center;
+}
+.category-icon-box i:hover{
+    color: #01d7e1 ;
+    transition: 0.5;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
 /* DOCUMENT SETTING */
 
 html {
