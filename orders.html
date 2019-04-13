@@ -55,33 +55,79 @@
     </nav>
 
 
-    <div class='table-responsive'>
-        <div class="container">
-            <!--Table-->
-            <table id="tablePreview" class="table table-hover table-bordered">
-                <!--Table head-->
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Product Picture</th>
-                        <th>Product Name</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
-                <!--Table head-->
-                <!--Table body-->
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td><img src="./images/image.png" width="150" alt="product"></td>
-                        <td>Something Something</td>
-                        <td>RS 455454</td>
-                    </tr>
-                   
-                </tbody>
-                <!--Table body-->
-            </table>
-            <!--Table-->
+    <div class="container">
+        <div class="row py-5">
+            <!-- BEGIN INVOICE -->
+            <div class="col-12">
+                <div class="grid invoice">
+                    <div class="grid-body">
+                        <div class="invoice-title">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>
+                                        <span class="small">Order #12</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                <address>
+                                    <strong>Status:</strong><br>
+                                    In Progress
+                                </address>
+                            </div>
+                            <div class="col-6 text-right">
+                                <address>
+                                    <strong>Order Date:</strong><br>
+                                    17/08/19
+                                </address>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>ORDER SUMMARY</h3>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr class="line">
+                                            <td><strong>#</strong></td>
+                                            <td class="text-center"><strong>Product Information</strong></td>
+                                            <td class="text-center"><strong>Price</strong></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td><strong>Product Name</strong><br>
+                                                <strong>Address: </strong> i14 Islamabad<br></td>
+                                            <td class="text-center">2,400</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="1"></td>
+                                            <td class="text-right"><strong>Taxes</strong></td>
+                                            <td class="text-right"><strong>N/A</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1">
+                                            </td>
+                                            <td class="text-right"><strong>Total</strong></td>
+                                            <td class="text-right"><strong>2,400</strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 identity">
+                                <p class="logo">Yard<span class="text-primary">Stop</span>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END INVOICE -->
         </div>
     </div>
 
