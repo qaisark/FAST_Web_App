@@ -1,24 +1,26 @@
 /* HASSANS CSS */
-.popular-product-box{
+.popular-product-box {
     text-align: center;
 }
-.homepage-boxes-shadow{
-    box-shadow: 0 1px 10px rgba(0,0,0,.12);
+
+.homepage-boxes-shadow {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
 }
 
-.category-icon-box{
-   
-}
-.category-icon-box> i:first-child{
+.category-icon-box {}
+
+.category-icon-box>i:first-child {
     font-size: 120px;
     text-align: center;
 }
-.category-icon-box i:hover{
-    color: #01d7e1 ;
+
+.category-icon-box i:hover {
+    color: #01d7e1;
     transition: 0.5;
     transition-property: color;
     transition-duration: 0.5s;
 }
+
 /* DOCUMENT SETTING */
 
 html {
@@ -70,6 +72,10 @@ body {
 
 .text-primary {
     color: #01d7e1 !important;
+}
+
+.btn {
+    border-radius: 0;
 }
 
 .btn-dark {
@@ -143,8 +149,7 @@ nav[aria-label="breadcrumb"] {
 
 /* Item Page */
 
-.item-detail-section
-{
+.item-detail-section {
     margin-bottom: 25px;
 }
 
@@ -187,6 +192,12 @@ nav[aria-label="breadcrumb"] {
     font-size: 0.89rem;
 }
 
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
 /* Footer */
 footer {
     background: #303030;
@@ -206,4 +217,16 @@ footer a {
 
 footer a:hover {
     color: #03b2ba;
+}
+
+/* User Profile Page */
+
+.user-profile-section {
+    background: #ffffff;
+}
+
+.user-profile-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
