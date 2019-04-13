@@ -5,7 +5,17 @@
 .homepage-boxes-shadow{
     box-shadow: 0 1px 10px rgba(0,0,0,.12);
 }
-
+.list-style-none{
+    list-style: none;
+}
+.checkbox-style{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #e5e5e5;
+}
+.text-gray{
+    color: #a3a3a3;
+}
 .category-icon-box{
    
 }

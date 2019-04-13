@@ -56,11 +56,11 @@
 
 
     <!-- Search Page -->
-    <div class="container">
-        <div class="row">
 
+    <div class="container mt-3">
+        <div class="row">
             <div class="col-12 col-md-10 order-md-2">
-                Result
+                <h2>Result</h2>
                 <div class="container">
                     <div class="row">
 
@@ -108,33 +108,57 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-2  order-md-1">Filters
+            <div class="col-12 col-md-2  order-md-1 text-center text-md-left mt-4 mt-md-0">
+                <h2>Filters</h2>
                 <hr>
+                <!-- Category -->
                 <h6>Category</h6>
                 <ul class="list-style-none">
                     <li>
-                        Mobiles (30)
+                        Mobiles <span class="text-gray"> (30)</span>
                     </li>
                     <li>
-                        Laptops (30)
+                        Laptops <span class="text-gray"> (30)</span>
                     </li>
                     <li>
-                        Animals (30)
+                        Cars <span class="text-gray"> (30)</span>
                     </li>
                 </ul>
                 <hr>
-                <h6>Price</h6>
+                <!-- Seller Ratings -->
+                <h6>Seller Ratings</h6>
+                <ul class="list-style-none">
+                    <li>
+                        <input type="checkbox" class="checkbox-style" name="fiveStar" id=""> 5 Star
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox-style" name="fourStar" id=""> 4 Star
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox-style" name="threeStar" id=""> 3 Star
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox-style" name="twoStar" id=""> 2 Star
+                    </li>
+                    <li>
+                        <input type="checkbox" class="checkbox-style" name="oneStar" id=""> 1 Star
+                    </li>
+                </ul>
+                <hr>
+                <!-- Price Range -->
+                <h6>Price Range</h6>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 p-md-1">
                         <input class="w-100 form-control" type="text" name="minPrice" id="" placeholder="Min">
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 p-md-1">
                         <input class="w-100 form-control" type="text" name="maxPrice" id="" placeholder="Max">
                     </div>
                     <div class="col-12 mt-2">
                         <input class="btn btn-dark mx-auto d-block" type="submit" value="Search">
                     </div>
                 </div>
+
             </div>
 
         </div>
