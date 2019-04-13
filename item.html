@@ -19,6 +19,8 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="stylesheet" href="./css/css-stars.css">
+
 </head>
 
 <body>
@@ -77,16 +79,16 @@
                         <h2>Toyota Corolla GLI Manual Transmission,White,Non Register</h2>
                     </div>
                     <div class="item-rating">
-                        <span>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
+                        <span class="stars stars-example-bootstrap">
+                            <select id="example" name="rating" autocomplete="off">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
                         </span>
-                        <span>
-                            (4.5)
-                        </span>
+          
                     </div>
                     <div class="item-details-list mt-3">
                         <p class="align-items-center row">
@@ -149,7 +151,7 @@
                             <div class="p-4">
                                 <h4>Pickup Address: <small>Bahawalpur, Punjab, Pakistan</small></h4>
                                 <div style="width: 100%"><iframe width="100%" height="300"
-                                        src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=29.394644, 71.6638747&amp;q=Bahawalpur%2C%20Punjab%2C%20Pakistan+(Seller)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"
+                                        src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;q=Islamabad%2C%20Pakistan+(Seller)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"
                                         frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
                                             href="https://www.maps.ie/map-my-route/">Map a route</a></iframe></div>
                                 <br />
@@ -185,7 +187,8 @@
                             </div>
                             <div class="add-review ">
                                 <form action="/" method="POST">
-                                    <textarea name="review" id="review" cols="30" rows="3" placeholder="Enter Your Reviews About Item">
+                                    <textarea name="review" id="review" cols="30" rows="3"
+                                        placeholder="Enter Your Reviews About Item">
 
                                     </textarea>
 
@@ -255,6 +258,16 @@
 
     <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="./js/jquery.barrating.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#example').barrating({
+                theme: 'css-stars'
+            });
+        });
+    </script>
 </body>
 
 </html>
