@@ -1,4 +1,11 @@
 /* HASSANS CSS */
+.section-title h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding: 11px;
+}
+
 .popular-product-box {
     text-align: center;
 }
@@ -6,31 +13,47 @@
 .homepage-boxes-shadow {
     box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
 }
-.product-box-small{
+
+.product-box-small {
     text-align: center;
+    text-decoration: none;
+    color: inherit;
 }
-.homepage-boxes-shadow{
-    box-shadow: 0 1px 10px rgba(0,0,0,.12);
+
+.product-box-small:hover {
+    text-decoration: none;
 }
-.list-style-none{
+
+.homepage-boxes-shadow {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
+}
+
+.list-style-none {
     list-style: none;
 }
-.checkbox-style{
+
+.checkbox-style {
     width: 15px;
     height: 15px;
     border: 1px solid #e5e5e5;
 }
-.text-gray{
+
+.text-gray {
     color: #a3a3a3;
 }
-.category-icon-box{
-   
+
+a.category-icon-box {
+    text-decoration: none;
+    color: inherit;
 }
 
-.category-icon-box {}
+a.category-icon-box:hover {
+    text-decoration: none;
+    color: inherit;
+}
 
 .category-icon-box>i:first-child {
-    font-size: 120px;
+    font-size: 4.4rem;
     text-align: center;
 }
 
