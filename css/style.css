@@ -5,7 +5,8 @@
 .font-15rem{
     font-size: 15rem;
 }
-.font-8rem{
+
+.font-8rem {
     font-size: 8rem;
 }
 .product-box-small{
@@ -78,6 +79,11 @@ a.category-icon-box:hover {
 
 [class*='fa-star'] {
     color: #ff9800;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 2.563rem;
 }
 
 /* DOCUMENT SETTING */
@@ -225,12 +231,13 @@ nav[aria-label="breadcrumb"] {
 }
 
 @media (min-width: 992px) {
-   
+
     #navbarToggler {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
         order: 1;
     }
+
     .navbar .navbar-nav {
         -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
