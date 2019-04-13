@@ -1,3 +1,123 @@
+/* HASSANS CSS */
 .homepage-boxes-shadow{
     box-shadow: 0 1px 10px rgba(0,0,0,.12);
+}
+
+
+/* DOCUMENT SETTING */
+
+html {
+    line-height: 1.29;
+    font-size: 13px;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: inherit;
+    color: #000000;
+    font-size: 1rem;
+    background: #eee;
+}
+
+@media all and (min-width:570px) {
+
+    html {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width:760px) {
+
+    html {
+        font-size: 15px;
+    }
+}
+
+@media all and (min-width:990px) {
+
+    html {
+        font-size: 16px;
+    }
+}
+
+.bg-dark {
+    background-color: #17161d !important;
+}
+
+.text-primary {
+    color: #01d7e1 !important;
+}
+
+/* NAVBAR */
+
+.navbar form>* {
+    border: none;
+    border-radius: 0;
+}
+
+.navbar form .form-control {
+    background-color: #292733;
+    color: #65636c;
+}
+
+.navbar form .form-control:focus {
+    color: #ffffff;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar form button {
+    background-color: #01d7e1;
+    color: #f2f2f2;
+}
+
+.navbar form button:hover {
+    background-color: rgba(1, 214, 225, 0.829);
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #01d7e1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+}
+
+nav[aria-label="breadcrumb"] {
+    background: #fff;
+}
+
+.breadcrumb {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.breadcrumb a {
+    color: #03b2ba;
 }
