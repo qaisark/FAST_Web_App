@@ -1,4 +1,10 @@
 /* HASSANS CSS */
+.font-15rem{
+    font-size: 15rem;
+}
+.font-8rem{
+    font-size: 8rem;
+}
 .product-box-small{
     text-align: center;
 }
