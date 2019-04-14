@@ -6,8 +6,10 @@ $negativeWords = array("bad", "annoy", "broken", "boring", "confused", "corrupt"
 $positiveFlag = 0;
 $negativeFlag = 0;
 
-$string = "I love this game it has so much detail and it's free! Usually car simulators that have this much detail would cost money. You should get this game. By far the best car game I have";
+$string = "NOT FOR YOUNG CHILDREN My husband was sitting with our 8 year old son on his Kids FireHD, and while playing the game an inappropriate ad came up with nearly naked women and very adult content.";
 $pieces = explode(" ", $string);
+
+$pieces = array_map('strtolower', $pieces);
 
 $positiveSame= array_intersect($positiveWords, $pieces);
 $negativeSame = array_intersect($negativeWords, $pieces);
@@ -32,5 +34,4 @@ if(count($positiveSame) == 0 && count($negativeSame) == 0)
     $negativeFlag = 0;
 }
 
-echo $positiveFlag;
-echo " / ". $negativeFlag;
+//Add these flags to user points
