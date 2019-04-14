@@ -1,17 +1,18 @@
 /* HASSANS CSS */
-.min-height-82vh{
+.min-height-82vh {
     min-height: 82vh;
 }
-.font-15rem{
+
+.font-15rem {
     font-size: 15rem;
 }
 
 .font-8rem {
     font-size: 8rem;
 }
-.product-box-small{
 
-}
+.product-box-small {}
+
 .section-title h3 {
     text-align: center;
     font-weight: 600;
@@ -25,7 +26,7 @@
 
 .homepage-boxes-shadow {
     -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
-            box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
 }
 
 .product-box-small {
@@ -40,7 +41,7 @@
 
 .homepage-boxes-shadow {
     -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
-            box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .12);
 }
 
 .list-style-none {
@@ -79,7 +80,7 @@ a.category-icon-box:hover {
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 
 [class*='fa-star'] {
@@ -169,7 +170,7 @@ body {
     border: none;
     outline: 0;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .navbar form button {
@@ -319,7 +320,7 @@ footer {
     background: #303030;
     padding: 25px 0;
     color: #f1f1f1;
-    position:absolute;
+    position: absolute;
     width: 100%;
 }
 
@@ -355,15 +356,15 @@ footer a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 90vh;
 }
 
-#error-page .main-container{    
+#error-page .main-container {
     max-width: 635px;
 }
 
@@ -383,7 +384,7 @@ footer a:hover {
     font-size: 5rem;
 }
 
-#error-page a{
+#error-page a {
     background: #01d7e1;
     display: inline-block;
     padding: 8px;
@@ -391,4 +392,11 @@ footer a:hover {
     text-decoration: none;
     margin-top: 8px;
     text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+
+    #error-page .unauthorized h1 {
+        font-size: 8rem;
+    }
 }
